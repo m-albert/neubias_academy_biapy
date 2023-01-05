@@ -12,27 +12,27 @@ dependencies:
   - voila
   - itkwidgets
   - jupyterlab
-  - nodejs
-  - scikit-learn
-  - rise
-  - pyjnius=1.2.0
-  - jupyter_contrib_nbextensions
-  - ipympl
-  - ipywidgets
-  - numba>=0.43.1
-  - pyimagej
-  - openjdk=8
-  - seaborn
-  - plotnine 
-  - pip:
-    - napari
-    - trackpy
-    - tensorflow==1.15
-    - tqdm
-    - torch 
-    - torchvision
-    - mrc
-    - stardist
-    - cellpose
-    - aicsimageio
-    - xlrd
+  # - nodejs
+  # - scikit-learn
+  # - rise
+  # - pyjnius=1.2.0
+  # - jupyter_contrib_nbextensions
+  # - ipympl
+  # - ipywidgets
+  # - numba>=0.43.1
+  # - pyimagej
+  # - openjdk=8
+  # - seaborn
+  # - plotnine 
+  # - pip:
+  #   - napari
+  #   - trackpy
+  #   - tensorflow==1.15
+  #   - tqdm
+  #   - torch 
+  #   - torchvision
+  #   - mrc
+  #   - stardist
+  #   - cellpose
+  #   - aicsimageio
+  #   - xlrd
