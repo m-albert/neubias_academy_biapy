@@ -3,30 +3,30 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - numpy
-  - matplotlib
-  - scikit-image
-  - pandas
-  - ipyvolume
-  - pip
-  - voila
-  - itkwidgets
-  - jupyterlab
-  - nodejs
-  - scikit-learn
-  # - rise
-  - pyjnius=1.2.0
-  - jupyter_contrib_nbextensions
-  - ipympl
-  - ipywidgets
-  - numba>=0.43.1
-  - pyimagej
-  - openjdk=8
-  - seaborn
-  - plotnine 
   - pip:
+    - numpy
+    - matplotlib
+    - scikit-image
+    - pandas
+    - ipyvolume
+    - pip
+    - voila
+    - itkwidgets
+    - jupyterlab
+    - nodejs
+    - scikit-learn
+    # - rise
+    # - pyjnius=1.2.0
+    - jupyter_contrib_nbextensions
+    - ipympl
+    - ipywidgets
+    - numba>=0.43.1
+    # - pyimagej
+    # - openjdk=8
+    - seaborn
+    - plotnine 
     - napari
-    # - RISE
+    - RISE
     - trackpy
     - tensorflow==1.15
     - tqdm
@@ -37,3 +37,4 @@ dependencies:
     - cellpose
     - aicsimageio
     - xlrd
+    - protobuf==3.20.*
