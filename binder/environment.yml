@@ -26,7 +26,7 @@ dependencies:
   - plotnine 
   - pip:
     - napari
-    - RISE
+    # - RISE
     - trackpy
     - tensorflow==1.15
     - tqdm
